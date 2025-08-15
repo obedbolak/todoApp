@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "todoApp",
+    "name": "Todo App",
     "slug": "todoApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -33,7 +33,9 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-secure-store",
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true
